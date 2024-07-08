@@ -91,13 +91,17 @@ text_only: 1
 驗證碼挑戰，儘管旨在提供安全性，但對身心障礙者使用者經常不具有親和力。建議可以採用其他方式取代傳統 CAPTCHA，避免阻擋使用者操作卻又放行更多機器人。
 
 - 以隱藏的 `<input type="checkbox">` 作為吸引機器人勾選的蜜罐陷阱 (honeypot)，並篩選掉這類存取需求。
-- 其他更新技術的非互動型驗證技術，如 [Turnstile](https://www.cloudflare.com/zh-tw/products/turnstile/), [hCaptcha](https://hcaptcha.com/), [reCAPTCHA](https://hcaptcha.com/) 等等。
+- 其他更新技術的非互動型驗證技術，如 [Turnstile](https://www.cloudflare.com/zh-tw/products/turnstile/), [hCaptcha](https://hcaptcha.com/), [reCAPTCHA](https://developers.google.com/recaptcha) 等等。
 - 在伺服器端加上速率限制，例如同一 IP 僅能在一定時間內送出多少需求，且在失敗多少次之後列入拒絕名單。
 
 #### 延伸參考資料
 
 - [Spam-free accessible forms](https://webaim.org/blog/spam_free_accessible_forms/)     
   作者：Jared Smith
+- [Inaccessibility of CAPTCHA](https://www.w3.org/TR/turingtest/)  
+  作者：W3C
+- [CAPTCHA are Not a Security Measure](https://www.sitepoint.com/captcha-are-not-a-security-measure/)  
+  作者：Thomas Rutter
 
 ### 侵入性彈出視窗和通知
 
